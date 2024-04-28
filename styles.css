@@ -44,7 +44,7 @@ img.cat{
 img.paw{
     width:100px;
     position: absolute;
-    top:65px;
+ 
     align-self: center;
     
 
@@ -62,7 +62,7 @@ p{
     width: 600px;
     height:100px;
     position: absolute;
-    top: 50px
+   
 
     
 }      
