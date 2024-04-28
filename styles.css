@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: "vanilla";
+    src:
+      url("vanilla-webfont.woff2") format("woff2"),
+      url("vanilla-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    display: flex;
+    flex-direction:row;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.F{
+    display: flex;
+    flex-direction:column;
+
+
+}
+img.cat{
+    min-width: 600px;
+    max-width:600px;
+    width:40%;
+    height:100vh;
+    margin: 0px;
+    padding: 0px;
+ 
+    
+    
+}
+.cre{
+    position:absolute;
+    bottom: 10px;
+    margin-top:10px;
+    color:white;
+    align-self: center;
+   
+}
+
+img.paw{
+    width:100px;
+    position: absolute;
+    top:65px;
+    align-self: center;
+    
+
+}
+
+p{
+    margin:50px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:"comic sans"; 
+}   
+.box{
+    background-color: white;
+    opacity:0.1;
+    width: 600px;
+    height:100px;
+    position: absolute;
+    top: 50px
+
+    
+}      
+       
+form{
+    display: flex;
+    flex-flow: row;
+    background-color: gray;
+}
+.c1,.c2{
+    margin:50px;
+}
+.footer{
+    color:white;
+    text-align: center;
+    padding:20px;
+    background-color: black;
+}
+       .form-container {
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: flex-end;
+
+       }
+       .form-container h1 {
+            margin: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+            font-family: "vanilla";
+
+        }
+
+       .form-container label {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+       .form-container input[type="text"],
+       .form-container input[type="email"],
+       .form-container input[type="password"],
+       .form-container input[type="tel"]
+     
+       {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .form-container input:focus {
+            outline: none; /* Removing default focus outline */
+            border-color: blue; /* Example: Change border color to blue when focused */
+            box-shadow: 2px 2px black;
+        }
+        .form-container input[type="email"]:valid,
+        .form-container input[type="tel"]:valid  {
+            outline: none; /* Removing default focus outline */
+            
+        }
+        
+        /* Styles for input fields when the form is submitted and they are invalid */
+        .form-container input[type="email"]:focus:invalid,
+        .form-container input[type="tel"]:focus:invalid {
+            outline: none; /* Removing default focus outline */
+            border-color: red; /* Example: Change border color to red when invalid after form submission */
+            box-shadow: 2px 2px black;
+        }
+        
+
+
+       .form-container button[type="submit"] {
+            height:15rem;
+            align-self: center;
+            padding: 10px 20px;
+            background-color:rgb(83, 8, 8);
+            color: #fff;
+            border: none;
+            border-radius: 7px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin:0px 20px ;
+        }
+
+       .form-container button[type="submit"]:hover {
+            background-color:black;
+        }
